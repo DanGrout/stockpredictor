@@ -1,6 +1,6 @@
 # Forecasting Stock Prices Using Long Short-Term Memory Networks (LSTMs)
 
-![Prediction Example]([images\predicted_next_day5.png] "Prediction Example")
+![Prediction Example](images/predicted_next_day5.png "Prediction Example")
 
 ## Stack:
 * Python
@@ -25,8 +25,6 @@
 This project dives into building a Long Short-Term Memory (LSTM) network to forecast stock prices. It starts by emphasising the importance of historical data for training the model. Whilst using the Alphavantage API, I was able to collect extensive price data, using a 20-year daily closing history for a variety of stock options. The below example is from the stock of IBM.
 ### Daily Close Price
 ![Daily Close Price](images/Figure_1_Daily_close_price.png "Daily Close Price")
-
-<!--![Daily Close Price](https://github.com/AlphaVantageSupport/time-series-forecasting-pytorch/raw/main/static/figure01-history-price.png "Daily Close Price")-->
 
 Before feeding the data into the LSTM, it undergoes preprocessing. Normalization is crucial, transforming the stock prices into a standard range. This ensures all features contribute equally during training and avoids the model getting skewed by values with vastly different scales.
 
